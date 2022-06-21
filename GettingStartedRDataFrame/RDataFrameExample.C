@@ -42,8 +42,8 @@ void RDataFrameExample()
 
     // single file -- all constructors are equivalent
 
-    const char *fdata1 = "../BuHI/Histos/finaltree_Bujk_AOD_HI2016_sample1.root";
-    const char *fdata2 = "../BuHI/Histos/finaltree_Bujk_AOD_HI2016_sample2.root";
+    const char *fdata1 = "../../BuHI/Histos/finaltree_Bujk_AOD_HI2016_sample1.root";
+    const char *fdata2 = "../../BuHI/Histos/finaltree_Bujk_AOD_HI2016_sample2.root";
 
     TFile *f1 = TFile::Open(fdata1);
     TTree *t1 = f1->Get<TTree>("Butree");
